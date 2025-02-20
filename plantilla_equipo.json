@@ -1,0 +1,899 @@
+{
+  "equipos": [
+    {
+      "equipo": "Club Deportivo Riestra",
+      "jugadores": [
+        {
+          "nombre": "Ignacio Arce",
+          "posicion": "Portero",
+          "dorsal": "1",
+          "nacionalidad": "Argentina",
+          "valorMercado": "1,00 mill. €"
+        },
+        {
+          "nombre": "Nahuel Manganelli",
+          "posicion": "Portero",
+          "dorsal": "12",
+          "nacionalidad": "Argentina",
+          "valorMercado": "-"
+        },
+        {
+          "nombre": "Juan Carlos Rolón",
+          "posicion": "Portero",
+          "dorsal": "34",
+          "nacionalidad": "Argentina",
+          "valorMercado": "-"
+        },
+        {
+          "nombre": "Jaime Barceló",
+          "posicion": "Portero",
+          "dorsal": "39",
+          "nacionalidad": "Argentina",
+          "valorMercado": "-"
+        },
+        {
+          "nombre": "Nicolás Caro Torres",
+          "posicion": "Defensa central",
+          "dorsal": "3",
+          "nacionalidad": "Argentina",
+          "valorMercado": "500 mil €"
+        },
+        {
+          "nombre": "Juan Randazzo",
+          "posicion": "Defensa central",
+          "dorsal": "19",
+          "nacionalidad": "Argentina",
+          "valorMercado": "350 mil €"
+        },
+        {
+          "nombre": "Cristian Paz",
+          "posicion": "Defensa central",
+          "dorsal": "22",
+          "nacionalidad": "Argentina",
+          "valorMercado": "300 mil €"
+        },
+        {
+          "nombre": "Eric Tovo",
+          "posicion": "Defensa central",
+          "dorsal": "2",
+          "nacionalidad": "Argentina",
+          "valorMercado": "150 mil €"
+        },
+        {
+          "nombre": "Facundo Miño",
+          "posicion": "Defensa central",
+          "dorsal": "24",
+          "nacionalidad": "Argentina",
+          "valorMercado": "150 mil €"
+        },
+        {
+          "nombre": "Yeison Murillo",
+          "posicion": "Defensa central",
+          "dorsal": "4",
+          "nacionalidad": "Colombia",
+          "valorMercado": "25 mil €"
+        },
+        {
+          "nombre": "Rodrigo Gallo",
+          "posicion": "Lateral izquierdo",
+          "dorsal": "13",
+          "nacionalidad": "Argentina",
+          "valorMercado": "100 mil €"
+        },
+        {
+          "nombre": "Justo Rodríguez Ares",
+          "posicion": "Lateral izquierdo",
+          "dorsal": "-",
+          "nacionalidad": "Argentina",
+          "valorMercado": "-"
+        },
+        {
+          "nombre": "Pedro Ramírez",
+          "posicion": "Lateral derecho",
+          "dorsal": "5",
+          "nacionalidad": "Argentina",
+          "valorMercado": "600 mil €"
+        },
+        {
+          "nombre": "Yonatan Goitía",
+          "posicion": "Lateral derecho",
+          "dorsal": "27",
+          "nacionalidad": "Argentina",
+          "valorMercado": "375 mil €"
+        },
+        {
+          "nombre": "Nicolás Sansotre",
+          "posicion": "Lateral derecho",
+          "dorsal": "15",
+          "nacionalidad": "Argentina",
+          "valorMercado": "200 mil €"
+        },
+        {
+          "nombre": "Mariano Bracamonte",
+          "posicion": "Lateral derecho",
+          "dorsal": "36",
+          "nacionalidad": "Argentina",
+          "valorMercado": "125 mil €"
+        },
+        {
+          "nombre": "Pablo Monje",
+          "posicion": "Mediocentro",
+          "dorsal": "14",
+          "nacionalidad": "Argentina",
+          "valorMercado": "350 mil €"
+        },
+        {
+          "nombre": "Sergio Ortíz",
+          "posicion": "Mediocentro",
+          "dorsal": "16",
+          "nacionalidad": "Argentina",
+          "valorMercado": "200 mil €"
+        },
+        {
+          "nombre": "Mateo Ramírez",
+          "posicion": "Mediocentro",
+          "dorsal": "23",
+          "nacionalidad": "Argentina",
+          "valorMercado": "75 mil €"
+        },
+        {
+          "nombre": "Leonardo Landriel",
+          "posicion": "Mediocentro",
+          "dorsal": "30",
+          "nacionalidad": "Argentina",
+          "valorMercado": "50 mil €"
+        },
+        {
+          "nombre": "Ariel Muñoz",
+          "posicion": "Mediocentro",
+          "dorsal": "25",
+          "nacionalidad": "Argentina",
+          "valorMercado": "-"
+        },
+        {
+          "nombre": "Nehuén Montoya",
+          "posicion": "Interior derecho",
+          "dorsal": "41",
+          "nacionalidad": "Argentina",
+          "valorMercado": "-"
+        },
+        {
+          "nombre": "Braian Sánchez",
+          "posicion": "Mediocentro ofensivo",
+          "dorsal": "35",
+          "nacionalidad": "Argentina",
+          "valorMercado": "100 mil €"
+        },
+        {
+          "nombre": "Gonzalo Bravo",
+          "posicion": "Mediocentro ofensivo",
+          "dorsal": "10",
+          "nacionalidad": "Argentina",
+          "valorMercado": "25 mil €"
+        },
+        {
+          "nombre": "Mauro Smarra",
+          "posicion": "Mediocentro ofensivo",
+          "dorsal": "31",
+          "nacionalidad": "Argentina",
+          "valorMercado": "-"
+        },
+        {
+          "nombre": "Rodrigo Sayavedra",
+          "posicion": "Extremo izquierdo",
+          "dorsal": "28",
+          "nacionalidad": "Argentina",
+          "valorMercado": "100 mil €"
+        },
+        {
+          "nombre": "Mario Sanabria",
+          "posicion": "Extremo derecho",
+          "dorsal": "37",
+          "nacionalidad": "Argentina",
+          "valorMercado": "125 mil €"
+        },
+        {
+          "nombre": "Gabriel Obredor",
+          "posicion": "Extremo derecho",
+          "dorsal": "40",
+          "nacionalidad": "Argentina",
+          "valorMercado": "-"
+        },
+        {
+          "nombre": "Braian Guille",
+          "posicion": "Mediapunta",
+          "dorsal": "18",
+          "nacionalidad": "Argentina",
+          "valorMercado": "275 mil €"
+        },
+        {
+          "nombre": "Nicolás Benegas",
+          "posicion": "Delantero centro",
+          "dorsal": "32",
+          "nacionalidad": "Argentina",
+          "valorMercado": "600 mil €"
+        },
+        {
+          "nombre": "Alexander Díaz",
+          "posicion": "Delantero centro",
+          "dorsal": "20",
+          "nacionalidad": "Argentina",
+          "valorMercado": "450 mil €"
+        },
+        {
+          "nombre": "Jonathan Herrera",
+          "posicion": "Delantero centro",
+          "dorsal": "9",
+          "nacionalidad": "Argentina",
+          "valorMercado": "400 mil €"
+        },
+        {
+          "nombre": "Antony Alonso",
+          "posicion": "Delantero centro",
+          "dorsal": "7",
+          "nacionalidad": "Uruguay",
+          "valorMercado": "200 mil €"
+        },
+        {
+          "nombre": "Milton Céliz",
+          "posicion": "Delantero centro",
+          "dorsal": "8",
+          "nacionalidad": "Argentina",
+          "valorMercado": "200 mil €"
+        },
+        {
+          "nombre": "Franco Fagúndez",
+          "posicion": "Delantero centro",
+          "dorsal": "26",
+          "nacionalidad": "Uruguay",
+          "valorMercado": "125 mil €"
+        },
+        {
+          "nombre": "Gustavo Fernández",
+          "posicion": "Delantero centro",
+          "dorsal": "11",
+          "nacionalidad": "Argentina",
+          "valorMercado": "50 mil €"
+        }
+      ]
+    },
+    {
+      "equipo": "Club Atletico Independiente",
+      "jugadores": [
+        {
+          "nombre": "Rodrigo Rey",
+          "posicion": "Portero",
+          "dorsal": "33",
+          "nacionalidad": "Argentina",
+          "valorMercado": "1,80 mill. €"
+        },
+        {
+          "nombre": "Joaquín Blázquez",
+          "posicion": "Portero",
+          "dorsal": "1",
+          "nacionalidad": "Argentina",
+          "valorMercado": "225 mil €"
+        },
+        {
+          "nombre": "Manuel Tasso",
+          "posicion": "Portero",
+          "dorsal": "13",
+          "nacionalidad": "Argentina",
+          "valorMercado": "-"
+        },
+        {
+          "nombre": "Kevin Lomónaco",
+          "posicion": "Defensa central",
+          "dorsal": "26",
+          "nacionalidad": "Argentina",
+          "valorMercado": "4,00 mill. €"
+        },
+        {
+          "nombre": "Nicolás Freire",
+          "posicion": "Defensa central",
+          "dorsal": "6",
+          "nacionalidad": "Argentina",
+          "valorMercado": "2,00 mill. €"
+        },
+        {
+          "nombre": "Franco Paredes",
+          "posicion": "Defensa central",
+          "dorsal": "32",
+          "nacionalidad": "Argentina",
+          "valorMercado": "1,00 mill. €"
+        },
+        {
+          "nombre": "Sebastián Valdez",
+          "posicion": "Defensa central",
+          "dorsal": "36",
+          "nacionalidad": "Argentina",
+          "valorMercado": "450 mil €"
+        },
+        {
+          "nombre": "Fernando Da Rosa",
+          "posicion": "Defensa central",
+          "dorsal": "-",
+          "nacionalidad": "Argentina",
+          "valorMercado": "75 mil €"
+        },
+        {
+          "nombre": "Alvaro Angulo",
+          "posicion": "Lateral izquierdo",
+          "dorsal": "77",
+          "nacionalidad": "Colombia",
+          "valorMercado": "1,20 mill. €"
+        },
+        {
+          "nombre": "Adrián Spörle",
+          "posicion": "Lateral izquierdo",
+          "dorsal": "3",
+          "nacionalidad": "Argentina",
+          "valorMercado": "250 mil €"
+        },
+        {
+          "nombre": "Federico Vera",
+          "posicion": "Lateral derecho",
+          "dorsal": "4",
+          "nacionalidad": "Argentina",
+          "valorMercado": "1,20 mill. €"
+        },
+        {
+          "nombre": "Santiago Salle",
+          "posicion": "Lateral derecho",
+          "dorsal": "35",
+          "nacionalidad": "Argentina",
+          "valorMercado": "300 mil €"
+        },
+        {
+          "nombre": "David Martínez",
+          "posicion": "Pivote",
+          "dorsal": "21",
+          "nacionalidad": "Argentina",
+          "valorMercado": "1,50 mill. €"
+        },
+        {
+          "nombre": "Rodrigo Fernández Cedrés",
+          "posicion": "Pivote",
+          "dorsal": "20",
+          "nacionalidad": "Uruguay",
+          "valorMercado": "1,20 mill. €"
+        },
+        {
+          "nombre": "Iván Marcone",
+          "posicion": "Pivote",
+          "dorsal": "23",
+          "nacionalidad": "Argentina",
+          "valorMercado": "800 mil €"
+        },
+        {
+          "nombre": "Felipe Loyola",
+          "posicion": "Mediocentro",
+          "dorsal": "5",
+          "nacionalidad": "Chile",
+          "valorMercado": "3,00 mill. €"
+        },
+        {
+          "nombre": "Pablo Galdames",
+          "posicion": "Mediocentro",
+          "dorsal": "8",
+          "nacionalidad": "Chile",
+          "valorMercado": "1,50 mill. €"
+        },
+        {
+          "nombre": "Federico Mancuello",
+          "posicion": "Mediocentro",
+          "dorsal": "11",
+          "nacionalidad": "Argentina",
+          "valorMercado": "350 mil €"
+        },
+        {
+          "nombre": "Lautaro Millán",
+          "posicion": "Interior derecho",
+          "dorsal": "14",
+          "nacionalidad": "Argentina",
+          "valorMercado": "350 mil €"
+        },
+        {
+          "nombre": "Luciano Cabral",
+          "posicion": "Mediocentro ofensivo",
+          "dorsal": "10",
+          "nacionalidad": "Chile",
+          "valorMercado": "1,80 mill. €"
+        },
+        {
+          "nombre": "Braian Martínez",
+          "posicion": "Extremo izquierdo",
+          "dorsal": "22",
+          "nacionalidad": "Argentina",
+          "valorMercado": "1,00 mill. €"
+        },
+        {
+          "nombre": "Diego Tarzia",
+          "posicion": "Extremo izquierdo",
+          "dorsal": "27",
+          "nacionalidad": "Argentina",
+          "valorMercado": "700 mil €"
+        },
+        {
+          "nombre": "Santiago Montiel",
+          "posicion": "Extremo derecho",
+          "dorsal": "7",
+          "nacionalidad": "Argentina",
+          "valorMercado": "3,50 mill. €"
+        },
+        {
+          "nombre": "Lucas Román",
+          "posicion": "Extremo derecho",
+          "dorsal": "19",
+          "nacionalidad": "Italia",
+          "valorMercado": "300 mil €"
+        },
+        {
+          "nombre": "Matías Giménez",
+          "posicion": "Delantero centro",
+          "dorsal": "34",
+          "nacionalidad": "Argentina",
+          "valorMercado": "2,50 mill. €"
+        },
+        {
+          "nombre": "Gabriel Ávalos",
+          "posicion": "Delantero centro",
+          "dorsal": "9",
+          "nacionalidad": "Paraguay",
+          "valorMercado": "1,20 mill. €"
+        },
+        {
+          "nombre": "Santiago Hidalgo",
+          "posicion": "Delantero centro",
+          "dorsal": "16",
+          "nacionalidad": "Argentina",
+          "valorMercado": "1,00 mill. €"
+        },
+        {
+          "nombre": "Ignacio Maestro Puch",
+          "posicion": "Delantero centro",
+          "dorsal": "18",
+          "nacionalidad": "Argentina",
+          "valorMercado": "1,00 mill. €"
+        },
+        {
+          "nombre": "Santiago Ayala",
+          "posicion": "Delantero centro",
+          "dorsal": "-",
+          "nacionalidad": "Argentina",
+          "valorMercado": "50 mil €"
+        }
+      ]
+    },
+    {
+      "equipo": "Club Atletico Tigre",
+      "jugadores": [
+        {
+          "nombre": "Felipe Zenobio",
+          "posicion": "Portero",
+          "dorsal": "12",
+          "nacionalidad": "Argentina",
+          "valorMercado": "1,50 mill. €"
+        },
+        {
+          "nombre": "Alan Sosa",
+          "posicion": "Portero",
+          "dorsal": "24",
+          "nacionalidad": "Argentina",
+          "valorMercado": "150 mil €"
+        },
+        {
+          "nombre": "Alan Barrionuevo",
+          "posicion": "Defensa central",
+          "dorsal": "40",
+          "nacionalidad": "Argentina",
+          "valorMercado": "1,00 mill. €"
+        },
+        {
+          "nombre": "Federico Tévez",
+          "posicion": "Defensa central",
+          "dorsal": "31",
+          "nacionalidad": "Argentina",
+          "valorMercado": "400 mil €"
+        },
+        {
+          "nombre": "Ramón Arias",
+          "posicion": "Defensa central",
+          "dorsal": "5",
+          "nacionalidad": "Uruguay",
+          "valorMercado": "350 mil €"
+        },
+        {
+          "nombre": "Joaquín Laso",
+          "posicion": "Defensa central",
+          "dorsal": "2",
+          "nacionalidad": "Argentina",
+          "valorMercado": "300 mil €"
+        },
+        {
+          "nombre": "Nehuén Paz",
+          "posicion": "Defensa central",
+          "dorsal": "30",
+          "nacionalidad": "Argentina",
+          "valorMercado": "200 mil €"
+        },
+        {
+          "nombre": "Nahuel Banegas",
+          "posicion": "Lateral izquierdo",
+          "dorsal": "3",
+          "nacionalidad": "Argentina",
+          "valorMercado": "750 mil €"
+        },
+        {
+          "nombre": "Diego Sosa",
+          "posicion": "Lateral izquierdo",
+          "dorsal": "6",
+          "nacionalidad": "Argentina",
+          "valorMercado": "400 mil €"
+        },
+        {
+          "nombre": "Martín Ortega",
+          "posicion": "Lateral derecho",
+          "dorsal": "4",
+          "nacionalidad": "Argentina",
+          "valorMercado": "2,00 mill. €"
+        },
+        {
+          "nombre": "Martín Garay",
+          "posicion": "Lateral derecho",
+          "dorsal": "8",
+          "nacionalidad": "Argentina",
+          "valorMercado": "1,30 mill. €"
+        },
+        {
+          "nombre": "Valentín Moreno",
+          "posicion": "Lateral derecho",
+          "dorsal": "25",
+          "nacionalidad": "Argentina",
+          "valorMercado": "50 mil €"
+        },
+        {
+          "nombre": "Julián López",
+          "posicion": "Pivote",
+          "dorsal": "22",
+          "nacionalidad": "Argentina",
+          "valorMercado": "2,00 mill. €"
+        },
+        {
+          "nombre": "Jabes Saralegui",
+          "posicion": "Mediocentro",
+          "dorsal": "47",
+          "nacionalidad": "Argentina",
+          "valorMercado": "2,00 mill. €"
+        },
+        {
+          "nombre": "Santiago González",
+          "posicion": "Mediocentro",
+          "dorsal": "27",
+          "nacionalidad": "Argentina",
+          "valorMercado": "400 mil €"
+        },
+        {
+          "nombre": "Sebastián Sánchez",
+          "posicion": "Mediocentro",
+          "dorsal": "-",
+          "nacionalidad": "Argentina",
+          "valorMercado": "300 mil €"
+        },
+        {
+          "nombre": "Gonzalo Piñeiro",
+          "posicion": "Mediocentro",
+          "dorsal": "23",
+          "nacionalidad": "Argentina",
+          "valorMercado": "225 mil €"
+        },
+        {
+          "nombre": "Lorenzo Scipioni",
+          "posicion": "Mediocentro",
+          "dorsal": "16",
+          "nacionalidad": "Argentina",
+          "valorMercado": "50 mil €"
+        },
+        {
+          "nombre": "Sebastián Medina",
+          "posicion": "Interior izquierdo",
+          "dorsal": "21",
+          "nacionalidad": "Argentina",
+          "valorMercado": "250 mil €"
+        },
+        {
+          "nombre": "Elías Cabrera",
+          "posicion": "Mediocentro ofensivo",
+          "dorsal": "33",
+          "nacionalidad": "Argentina",
+          "valorMercado": "600 mil €"
+        },
+        {
+          "nombre": "Ignacio Neira",
+          "posicion": "Mediocentro ofensivo",
+          "dorsal": "17",
+          "nacionalidad": "Uruguay",
+          "valorMercado": "350 mil €"
+        },
+        {
+          "nombre": "Blas Armoa",
+          "posicion": "Extremo izquierdo",
+          "dorsal": "18",
+          "nacionalidad": "Paraguay",
+          "valorMercado": "1,80 mill. €"
+        },
+        {
+          "nombre": "Romeo Benítez",
+          "posicion": "Extremo izquierdo",
+          "dorsal": "28",
+          "nacionalidad": "Paraguay",
+          "valorMercado": "1,30 mill. €"
+        },
+        {
+          "nombre": "Lucas Besozzi",
+          "posicion": "Extremo izquierdo",
+          "dorsal": "10",
+          "nacionalidad": "Argentina",
+          "valorMercado": "1,00 mill. €"
+        },
+        {
+          "nombre": "Héctor Fértoli",
+          "posicion": "Extremo izquierdo",
+          "dorsal": "20",
+          "nacionalidad": "Argentina",
+          "valorMercado": "1,00 mill. €"
+        },
+        {
+          "nombre": "Maximiliano Zalazar",
+          "posicion": "Extremo derecho",
+          "dorsal": "77",
+          "nacionalidad": "Argentina",
+          "valorMercado": "1,80 mill. €"
+        },
+        {
+          "nombre": "Darío Sarmiento",
+          "posicion": "Extremo derecho",
+          "dorsal": "11",
+          "nacionalidad": "Argentina",
+          "valorMercado": "800 mil €"
+        },
+        {
+          "nombre": "Ignacio Russo",
+          "posicion": "Delantero centro",
+          "dorsal": "29",
+          "nacionalidad": "Argentina",
+          "valorMercado": "800 mil €"
+        },
+        {
+          "nombre": "David Romero",
+          "posicion": "Delantero centro",
+          "dorsal": "34",
+          "nacionalidad": "Argentina",
+          "valorMercado": "700 mil €"
+        },
+        {
+          "nombre": "Eric Ramírez",
+          "posicion": "Delantero centro",
+          "dorsal": "7",
+          "nacionalidad": "Venezuela",
+          "valorMercado": "600 mil €"
+        },
+        {
+          "nombre": "Alfio Oviedo",
+          "posicion": "Delantero centro",
+          "dorsal": "19",
+          "nacionalidad": "Paraguay",
+          "valorMercado": "500 mil €"
+        },
+        {
+          "nombre": "Ijiel Protti",
+          "posicion": "Delantero centro",
+          "dorsal": "9",
+          "nacionalidad": "Argentina",
+          "valorMercado": "125 mil €"
+        }
+      ]
+    },
+    {
+      "equipo": "Club Atletico Belgrano",
+      "jugadores": [
+        {
+          "nombre": "Ignacio Chicco",
+          "posicion": "Portero",
+          "dorsal": "1",
+          "nacionalidad": "Argentina",
+          "valorMercado": "1,00 mill. €"
+        },
+        {
+          "nombre": "Juan Espínola",
+          "posicion": "Portero",
+          "dorsal": "25",
+          "nacionalidad": "Paraguay",
+          "valorMercado": "800 mil €"
+        },
+        {
+          "nombre": "Manuel Vicentini",
+          "posicion": "Portero",
+          "dorsal": "23",
+          "nacionalidad": "Argentina",
+          "valorMercado": "200 mil €"
+        },
+        {
+          "nombre": "Matías Daniele",
+          "posicion": "Portero",
+          "dorsal": "28",
+          "nacionalidad": "Argentina",
+          "valorMercado": "-"
+        },
+        {
+          "nombre": "Mariano Troilo",
+          "posicion": "Defensa central",
+          "dorsal": "37",
+          "nacionalidad": "Argentina",
+          "valorMercado": "2,50 mill. €"
+        },
+        {
+          "nombre": "Fausto Grillo",
+          "posicion": "Defensa central",
+          "dorsal": "6",
+          "nacionalidad": "Argentina",
+          "valorMercado": "800 mil €"
+        },
+        {
+          "nombre": "Nicolás Meriano",
+          "posicion": "Defensa central",
+          "dorsal": "13",
+          "nacionalidad": "Argentina",
+          "valorMercado": "800 mil €"
+        },
+        {
+          "nombre": "Aníbal Leguizamón",
+          "posicion": "Defensa central",
+          "dorsal": "2",
+          "nacionalidad": "Argentina",
+          "valorMercado": "550 mil €"
+        },
+        {
+          "nombre": "Agustín Dattola",
+          "posicion": "Defensa central",
+          "dorsal": "24",
+          "nacionalidad": "Argentina",
+          "valorMercado": "400 mil €"
+        },
+        {
+          "nombre": "Agustin Baldi",
+          "posicion": "Defensa central",
+          "dorsal": "45",
+          "nacionalidad": "Argentina",
+          "valorMercado": "300 mil €"
+        },
+        {
+          "nombre": "Tobias Ostchega",
+          "posicion": "Lateral izquierdo",
+          "dorsal": "33",
+          "nacionalidad": "Argentina",
+          "valorMercado": "500 mil €"
+        },
+        {
+          "nombre": "Elías López",
+          "posicion": "Lateral derecho",
+          "dorsal": "4",
+          "nacionalidad": "Argentina",
+          "valorMercado": "600 mil €"
+        },
+        {
+          "nombre": "Facundo Quignón",
+          "posicion": "Pivote",
+          "dorsal": "19",
+          "nacionalidad": "Argentina",
+          "valorMercado": "1,20 mill. €"
+        },
+        {
+          "nombre": "Gerónimo Heredia",
+          "posicion": "Pivote",
+          "dorsal": "34",
+          "nacionalidad": "Argentina",
+          "valorMercado": "500 mil €"
+        },
+        {
+          "nombre": "Tiago Cravero",
+          "posicion": "Pivote",
+          "dorsal": "17",
+          "nacionalidad": "Argentina",
+          "valorMercado": "250 mil €"
+        },
+        {
+          "nombre": "Lucas Menossi",
+          "posicion": "Mediocentro",
+          "dorsal": "15",
+          "nacionalidad": "Argentina",
+          "valorMercado": "550 mil €"
+        },
+        {
+          "nombre": "Tomás Castro",
+          "posicion": "Mediocentro",
+          "dorsal": "16",
+          "nacionalidad": "Argentina",
+          "valorMercado": "200 mil €"
+        },
+        {
+          "nombre": "Gabriel Compagnucci",
+          "posicion": "Interior derecho",
+          "dorsal": "8",
+          "nacionalidad": "Argentina",
+          "valorMercado": "250 mil €"
+        },
+        {
+          "nombre": "Lucas Zelarayán",
+          "posicion": "Mediocentro ofensivo",
+          "dorsal": "10",
+          "nacionalidad": "Armenia",
+          "valorMercado": "3,50 mill. €"
+        },
+        {
+          "nombre": "Francisco González Metilli",
+          "posicion": "Mediocentro ofensivo",
+          "dorsal": "11",
+          "nacionalidad": "Argentina",
+          "valorMercado": "2,20 mill. €"
+        },
+        {
+          "nombre": "Jeremías Lucco",
+          "posicion": "Mediocentro ofensivo",
+          "dorsal": "42",
+          "nacionalidad": "Argentina",
+          "valorMercado": "250 mil €"
+        },
+        {
+          "nombre": "Julián Mavilla",
+          "posicion": "Mediocentro ofensivo",
+          "dorsal": "32",
+          "nacionalidad": "Argentina",
+          "valorMercado": "125 mil €"
+        },
+        {
+          "nombre": "Bryan Reyna",
+          "posicion": "Extremo izquierdo",
+          "dorsal": "7",
+          "nacionalidad": "Perú",
+          "valorMercado": "2,50 mill. €"
+        },
+        {
+          "nombre": "Juan Velázquez",
+          "posicion": "Extremo izquierdo",
+          "dorsal": "53",
+          "nacionalidad": "Argentina",
+          "valorMercado": "2,50 mill. €"
+        },
+        {
+          "nombre": "Ulises Sánchez",
+          "posicion": "Extremo derecho",
+          "dorsal": "12",
+          "nacionalidad": "Argentina",
+          "valorMercado": "4,20 mill. €"
+        },
+        {
+          "nombre": "Nicolás Fernández",
+          "posicion": "Delantero centro",
+          "dorsal": "22",
+          "nacionalidad": "Argentina",
+          "valorMercado": "4,80 mill. €"
+        },
+        {
+          "nombre": "Lucas Passerini",
+          "posicion": "Delantero centro",
+          "dorsal": "9",
+          "nacionalidad": "Argentina",
+          "valorMercado": "3,00 mill. €"
+        },
+        {
+          "nombre": "Franco Jara",
+          "posicion": "Delantero centro",
+          "dorsal": "29",
+          "nacionalidad": "Argentina",
+          "valorMercado": "200 mil €"
+        }
+      ]
+    }
+  ]
+}

@@ -1,50 +1,231 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
-    font-family: "Roboto", serif;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  font-family: "Roboto", serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #e0e0e0;
 }
 
 ul {
-    /* display: flex;
+  /* display: flex;
     flex-wrap: wrap;
     align-items: center; */
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #000000;
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: #111;
-  }
-  
-  .active {
-    background-color: #ff9100;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #007bff;
+}
+
+li > img {
+  width: 2em;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.contenedor-widget {
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto 0;
+  overflow: hidden;
+}
+
+.contenedor-widget > h1 {
+  text-align: center;
+  background-color: #007bff;
+  color: white;
+  padding: 0.3em;
+}
+
+.contenedor-custom {
+  display: flex;
+  background: linear-gradient(135deg, #2a2d3e, #1a1d2b);
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.3);
+  padding: 15px;
+  color: white;
+  text-align: center;
+  margin: 50px auto 0;
+  width: 500px;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+.contenedor-custom .titulo {
+  background-color: #007bff;
+  padding: 10px;
+  border-radius: 8px 8px 0 0;
+  font-size: 18px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.contenedor-custom button {
+  background-color: #007bff;
+  border: none;
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 1em;
+  padding: 0.7em;
+  width: 100%;
+}
+
+.contenedor-custom img {
+  width: 125px;
+  height: auto;
+  margin: 10px;
+}
+
+.contenedor-custom-stats {
+  display: flex;
+  background: linear-gradient(135deg, #2a2d3e, #1a1d2b);
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.3);
+  padding: 15px;
+  color: white;
+  text-align: center;
+  margin: 50px auto 0;
+  width: 300px;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+.contenedor-custom-stats .titulo {
+  background-color: #007bff;
+  padding: 10px;
+  border-radius: 8px 8px 0 0;
+  font-size: 18px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.contenedor-jugadores {
+  background: linear-gradient(135deg, #2a2d3e, #1a1d2b);
+  color: white;
+  padding: 10px;
+}
+
+.btn-volver {
+  background-color: #007bff;
+  border: none;
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 1em;
+  padding: 0.7em;
+  margin: 2em;
+  display: block;
+}
+
+.derecha {
+  width: 40%; /* Ajusta el tamaño del widget */
+}
+
+.izquierda {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Espacio entre los 4 divs */
+  width: 60%; /* Ajusta según el espacio que quieras */
+}
+
+.layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px; /* Espacio entre columnas */
+  max-width: 1200px; /* Ajusta según el diseño */
+  margin: auto;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+th,
+td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.jugadores-lista {
+  border: 1px solid #ccc;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+}
+.jugador {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #eef;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+}
+
+.player-div-container {
+  margin: 5em auto;
+}
+
+.player-div-container > h1 {
+  text-align: center;
+}
+
+#jugadores-container {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
   }
 
-  li > img {
-    width: 2em;
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
+  .derecha {
+    width: 100%;
   }
+}
