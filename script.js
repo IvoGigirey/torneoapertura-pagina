@@ -1,3 +1,32 @@
+
+document.addEventListener('DOMContentLoaded', function() {
+  const navbar = document.getElementById('navbar');
+  let lastScrollTop = 0; // Variable para almacenar la última posición del scroll
+
+  window.addEventListener('scroll', function() {
+    const scrollTop = window.scrollY;
+
+    if (scrollTop > 100) {
+      navbar.classList.add('sticky'); // Agrega la clase sticky
+      if (scrollTop > lastScrollTop) {
+        // Scroll hacia abajo
+        navbar.classList.remove('hidden'); // Muestra el navbar
+      } else {
+        // Scroll hacia arriba
+        navbar.classList.add('hidden'); // Oculta el navbar
+      }
+    } else {
+      navbar.classList.remove('sticky'); // Quita la clase sticky si no se ha desplazado lo suficiente
+      navbar.classList.remove('hidden'); // Muestra el navbar en la parte superior
+    }
+
+    lastScrollTop = scrollTop; // Actualiza la última posición del scroll
+  });
+});
+
+console.log('---------');
+
+
 fetch("plantilla_equipo.json")
   .then((response) => response.json())
   .then((data) => {
@@ -89,4 +118,14 @@ function mostrarPlantilla(equipos, equipoFiltrado) {
   } else {
     contenedor.innerHTML = "<p>No se encontró la plantilla de este equipo.</p>";
   }
+
 }
+
+
+console.log('tests')
+document.addEventListener('DOMContentLoaded', function() {
+  // Escucha el evento de scroll
+  window.addEventListener('scroll', function() {
+    console.log('Scrolling...'); // Esto se ejecutará cada vez que haces scroll
+  });
+});
