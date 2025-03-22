@@ -102,23 +102,34 @@ document.addEventListener("DOMContentLoaded", function () {
 // Crear el componente Noticias sin usar JSX
 function Noticias() {
   return React.createElement("div", { className: "contenedor-widget-news" },
-      React.createElement("h1", null, "NOTICIAS"),
-      React.createElement("div", { className: "contenedor-custom-news" },
-          React.createElement("h2", null, "¡El Sorteo Definió los Destinos del Torneo Apertura 2025!"),
-          React.createElement("p", null,
-              "📅 Martes 18 de febrero de 2025 - La expectativa estaba en su punto máximo, la tensión se podía sentir en el aire y los corazones latían con fuerza. ",
-              "Finalmente, el tan esperado sorteo de equipos para el Torneo Apertura 2025 de PES6 se llevó a cabo, dejando a todos los participantes con ansias de que ruede el balón. ",
-              "Con la suerte echada y el destino de cada estratega en manos del azar, estos fueron los resultados del sorteo: ", React.createElement("br"),
-              "⚫⚪ ", React.createElement("strong", null, "Deportivo Riestra"), " será comandado por Ivo Gigirey, quien buscará imponer su estilo de juego y llevar al equipo a lo más alto.", React.createElement("br"),
-              "🔵🔴 ", React.createElement("strong", null, "Club Atlético Tigre"), " tendrá en el banco a Juan Manuel Mencia, un técnico conocido por su enfoque ofensivo y su pasión por el juego.", React.createElement("br"),
-              "🔴⚪ ", React.createElement("strong", null, "Club Atlético Independiente"), ", un histórico del fútbol, estará dirigido por Stefano Meloni, quien promete darle al equipo una identidad de juego agresiva y letal.", React.createElement("br"),
-              "🔵⚪ ", React.createElement("strong", null, "Club Atlético Belgrano"), ", con la dirección de Santino Meloni, intentará demostrar por qué es un candidato fuerte al título desde el inicio del torneo.", React.createElement("br"),
-              "⚡ Con los equipos definidos, solo queda esperar el pitazo inicial y disfrutar de lo que promete ser un torneo cargado de emociones, goles y momentos épicos. ¡Que comience la batalla en la cancha virtual! 🎮🔥"
-          )
+    React.createElement("h1", null, "NOTICIAS"),
+    React.createElement("div", { className: "widget-facebook" },
+      React.createElement("h2", { className: "titulo-widget-facebook" }, "Sigue nuestras novedades en Facebook"), 
+      React.createElement("iframe", {
+        src: "https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpes6infinitty%2F%3Flocale%3Des_LA&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId",
+        scrolling: "yes",
+        frameBorder: "0",
+        allowFullScreen: true,
+        allow: "autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+      })
+    ),
+    React.createElement("div", { className: "contenedor-custom-news" },
+      React.createElement("h2", null, "¡El Sorteo Definió los Destinos del Torneo Apertura 2025!"),
+      React.createElement("p", null,
+        "📅 Martes 18 de febrero de 2025 - La expectativa estaba en su punto máximo, la tensión se podía sentir en el aire y los corazones latían con fuerza. ",
+        "Finalmente, el tan esperado sorteo de equipos para el Torneo Apertura 2025 de PES6 se llevó a cabo, dejando a todos los participantes con ansias de que ruede el balón. ",
+        "Con la suerte echada y el destino de cada estratega en manos del azar, estos fueron los resultados del sorteo: ", React.createElement("br"),
+        "⚫⚪ ", React.createElement("strong", null, "Deportivo Riestra"), " será comandado por Ivo Gigirey, quien buscará imponer su estilo de juego y llevar al equipo a lo más alto.", React.createElement("br"),
+        "🔵🔴 ", React.createElement("strong", null, "Club Atlético Tigre"), " tendrá en el banco a Juan Manuel Mencia, un técnico conocido por su enfoque ofensivo y su pasión por el juego.", React.createElement("br"),
+        "🔴⚪ ", React.createElement("strong", null, "Club Atlético Independiente"), ", un histórico del fútbol, estará dirigido por Stefano Meloni, quien promete darle al equipo una identidad de juego agresiva y letal.", React.createElement("br"),
+        "🔵⚪ ", React.createElement("strong", null, "Club Atlético Belgrano"), ", con la dirección de Santino Meloni, intentará demostrar por qué es un candidato fuerte al título desde el inicio del torneo.", React.createElement("br"),
+        "⚡ Con los equipos definidos, solo queda esperar el pitazo inicial y disfrutar de lo que promete ser un torneo cargado de emociones, goles y momentos épicos. ¡Que comience la batalla en la cancha virtual! 🎮🔥"
       )
+    )
   );
 }
 
 // Renderizar el componente en el div con id "root"
 ReactDOM.createRoot(document.getElementById("root")).render(React.createElement(Noticias));
+
 
