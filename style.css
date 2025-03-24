@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -71,13 +71,13 @@ body {
 }
 
 .titulo-widget-facebook {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.5em;
   background: linear-gradient(to bottom, #4a6fa5, #2a3b5f);
   border-radius: 8px 8px 0 0;
   box-shadow: 0px 0px 14px rgba(74, 111, 165, 0.3);
   padding: 0.3em;
   text-align: center;
-  font-size: 18px;
-  font-weight: bold;
   margin-bottom: 10px;
   color: #d4e4fb; /* Azul muy claro */
 }
@@ -187,6 +187,9 @@ li > img {
 }
 
 .contenedor-widget > h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bold;
+  font-size: 3em;
   text-align: center;
   background: linear-gradient(to bottom, #4a6fa5, #2a3b5f);
   border-radius: 5px;
@@ -221,26 +224,30 @@ li > img {
   background: linear-gradient(to bottom, #4a6fa5, #2a3b5f);
   padding: 10px;
   border-radius: 8px 8px 0 0;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 1.7em;
+  font-weight: normal;
   width: 100%;
-  color: white;
+  color: #d4e4fb;
 }
 
 .contenedor-custom button {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   background: linear-gradient(to bottom, #4a6fa5, #2a3b5f);
   border: none;
   font-size: 1em;
   text-align: center;
   text-decoration: none;
-  color: white;
+  color: #d4e4fb;
   cursor: pointer;
   border-radius: 1em;
   padding: 0.7em;
   width: 100%;
   transition: background-color 0.3s ease, box-shadow 0.3s ease,
     transform 0.3s ease;
+}
+
+.contenedor-custom p {
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .contenedor-custom button:hover {
@@ -284,13 +291,11 @@ li > img {
 }
 
 .contenedor-widget-news > h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 5em;
   text-align: center;
-  background: linear-gradient(
-    to bottom,
-    #4a6fa5,
-    #2a3b5f
-  ); /* Degradado azul pastel */
-  border-radius: 5px;
+  background: linear-gradient(to bottom, #4a6fa5, #2a3b5f);
+  border-radius: 15px;
   color: #d4e4fb; /* Azul muy claro */
   padding: 0.3em;
   box-shadow: 0px 0px 14px rgba(74, 111, 165, 0.3);
@@ -330,7 +335,6 @@ li > img {
   padding: 10px;
   border-radius: 8px 8px 0 0;
   font-size: 18px;
-  font-weight: bold;
   width: 100%;
 }
 
@@ -393,6 +397,7 @@ li > img {
 }
 
 .stats-test > .contenedor-custom-stats {
+  font-family: "Bebas Neue", sans-serif;
   margin: 1em;
 }
 
@@ -413,6 +418,8 @@ li > img {
 }
 
 .layout {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: normal;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -429,6 +436,7 @@ table {
 }
 th,
 td {
+  font-weight: normal;
   padding: 8px;
   border: 1px solid #ddd;
 }
@@ -528,8 +536,8 @@ td {
 @media (max-width: 768px) {
   .widget-facebook {
     float: none;
-    margin: 20px auto;
-    width: 90%;
+    margin: 0 auto 20px auto;
+    width: 100%;
   }
 
   .widget-facebook iframe {
@@ -538,7 +546,7 @@ td {
   }
 
   .titulo-widget-facebook {
-    font-size: 16px;
+    font-size: 1.5em;
     padding: 0.5em;
   }
   .layout {
@@ -566,6 +574,7 @@ td {
 
   .contenedor-widget-news > h1 {
     width: 80%;
+    margin-bottom: 32px;
   }
 
   .stats-test .contenedor-custom-stats {
@@ -604,5 +613,9 @@ td {
 
   .topnav ul {
     width: 50%;
+  }
+
+  .widget-facebook > h2 {
+    width: 80%;
   }
 }
